@@ -1,4 +1,4 @@
-maxi = -1
+var maxi = -1
 if (window.DeviceMotionEvent) {
     document.getElementById("dmeSupported").innerText = "OK - Device Motion wird unterstützt!";
     window.addEventListener('devicemotion', function(event) {
